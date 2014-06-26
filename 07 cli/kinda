@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+'use strict';
+
+// https://github.com/sindresorhus/chalk
+var chalk = require('chalk');
+var thesaurus = require('./thesaurus.js');
+
+// Command line utilities with node.js
+// http://shapeshed.com/command-line-utilities-with-nodejs/
+var word = process.argv[2];
+if (word) {
+	console.log(chalk.yellow.bold('Searching for words kinda like "' + word + '"...'));
+	thesaurus(word, function (err, data) {
+		if (err) {
+			console.log('Error: ', err);
+		} else {
+			if (data.length) {
+				data.forEach(function (item, index) {
+					console.log(chalk.yellow.bold('\n' + (index + 1) + ') ' +  word) + ' ' + chalk.gray(item.category));
+					console.log(item.synonyms.join('\n'));
+				});
+			} else {
+				console.log('NOPE. Try again!');
+			}
+		}
+	});
+} else {
+	console.log('Enter a word (e.g. "kinda happy").');
+}
+

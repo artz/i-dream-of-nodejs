@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kinda node</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+      font-family: 'Ubuntu', sans-serif;
+      margin: 0 50px;
+      color: #333;
+      text-align: center;
+    }
+    h1 {
+      font-weight: normal;
+      font-size: 50px;
+      margin: 24px 0 12px;
+    }
+    .synonym {
+      display: inline-block;
+      text-decoration: none;
+      margin: 12px;
+      font-size: 22px;
+      line-height: 22px;
+      color: #7677ff;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Kinda <b id="word" contenteditable="true">node</b></h1>
+    <!--<div><input id="word" type="text" value="happy"> <button id="search">Search</button></div>-->
+    <div id="results"></div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+    (function ($) {
+
+    	var thesaurus = require('./thesaurus.js');
+      var $word = $('#word');
+      var $results = $('#results');
+      var $search = $('#search');
+
+      $word.on('focus', function () {
+        $word.data('before', $word.text());
+      }).on('blur', function () {
+        if ($word.text() === '') {
+          $word.html($word.data('before'));
+        } else if ($word.text() !== $word.data('before')) {
+          search($word.text());
+        }
+      }).on('keypress', function (event) {
+        if (event.which === 13) {
+          $word.blur();
+          return false;
+        }
+      });
+
+      function search(word) {
+        $results.fadeOut();
+        thesaurus(word, function (err, data) {
+          var resultsHTML = [];
+          if (err) {
+            console.log('Error', err);
+          } else {
+            if (data.length) {
+              data.forEach(function (item) {
+                item.synonyms.forEach(function (synonym) {
+                  resultsHTML.push('<a class="synonym" href="#' + synonym + '">' + synonym + '</a>');
+                });
+              })
+              $results
+                .html(resultsHTML.join(''))
+                .fadeIn();
+            } else {
+              $results
+                .html('<img src="nope.gif" alt="NOPE">')
+                .fadeIn();
+            }
+          }
+        });
+      };
+
+      $(document).on('click', '.synonym', function (event) {
+        $word.text(this.innerHTML);
+        search($word.text());
+        event.preventDefault();
+      });
+
+      search($word.text());
+
+    }(window.jQuery));
+    </script>
+  </body>
+</html>

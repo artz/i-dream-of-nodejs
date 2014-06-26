@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<title>I Dream of Node.js - Realtime Poll</title>
+	<style>
+		body {
+			font-family: 'Ubuntu', sans-serif;
+			margin: 0;
+			color: #333;
+		}
+		h1 {
+			margin: 0;
+			font-size: 16px;
+			font-weight: normal;
+			background-color: #333;
+			color: #fff;
+			padding: 12px;
+			text-align: center;
+		}
+		h2 {
+			margin: 0;
+			padding: 12px;
+		}
+		#answers {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		.answer {
+			font-size: 16px;
+			padding: 12px;
+			position: relative;
+			z-index: 1;
+		}
+		.option {
+			font-style: normal;
+			z-index: 1;
+			position: relative;
+		}
+		.result {
+			overflow: hidden;
+			display: block;
+			padding: 12px 0;
+			font-weight: normal;
+			position: absolute;
+			box-sizing: border-box;
+			background-color: #e3e3e3;
+			text-align: right;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			transition: width .5s ease-in-out, background-color .5s ease-in-out;
+		}
+		.result:after {
+			content: '\00a0\00a0\00a0'
+		}
+		.result.winning {
+			background-color: #88ace6;
+		}
+	</style>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Realtime Poll with Node.js &amp; Socket.io</h1>
+<h2 id="question"></h2>
+<ul id="answers"></ul>
+<script src="/socket.io/socket.io.js"></script>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script>
+(function ($) {
+
+	var $question = $('#question');
+	var $answers = $('#answers');
+	var $results;
+
+	function update(results) {
+		var max = Math.max.apply(null, results);
+		$results.each(function (index) {
+			var result = results[index] || 0;
+			var $result = $results.eq(index);
+			var percent = parseInt(result / max * 100) || 0;
+			$result
+				.html(result)
+				.width(percent + '%');
+			if (result === max) {
+				$result.addClass('winning');
+			} else {
+				$result.removeClass('winning');
+			}
+		});
+	}
+
+	var socket = io('http://localhost:3000');
+	socket.on('state', function (data) {
+		console.log('state', data);
+		$question.html(data.question);
+		$answers.html('');
+		data.answers.forEach(function (answer, index) {
+			$answers.append('<li class="answer"><i class="option">[' + index + '] ' + answer + '</i> <b class="result"></b></li>');
+		});
+		$results = $answers.find('.result');
+		update(data.results);
+	})
+	socket.on('results', function (data) {
+		console.log('results', data);
+		update(data.results);
+	});
+}(jQuery));
+</script>
+</body>
+</html>

@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"resul",
+				"resultsHTML"
+			],
+			[
+				"ng-hide-",
+				"ng-hide-remove-active"
+			],
+			[
+				"templ",
+				"templateUrl"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"ng",
+				"ngResource"
+			],
+			[
+				"entr",
+				"entrySchema"
+			],
+			[
+				"user",
+				"userSchema"
+			],
+			[
+				"account",
+				"accountSchema"
+			],
+			[
+				"competition",
+				"competitionSchema"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"srm",
+				"srm-34"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"c",
+				"competition"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"co",
+				"Competition"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"srmPicker",
+				"srmPickerActive"
+			],
+			[
+				"brew",
+				"brewbrawl-svg"
+			],
+			[
+				"alert",
+				"alertModule"
+			],
+			[
+				"alertMo",
+				"alertModuleNode"
+			],
+			[
+				"aler",
+				"alertModule"
+			],
+			[
+				"inli",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 133.0,
+		"selected_items":
+		[
+			[
+				"ubpr",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"swig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				":sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				":packa",
+				"Package Control: Install Package"
+			],
+			[
+				":split",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Artz/Sites/i-dream-of-nodejs/11 robots/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/05 poll/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/12 learning/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/03 chat/chat.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/05 poll/poll.json",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/Artz/Sites/i-dream-of-nodejs/10 debugging/chat-name.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/05 poll/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/09 benchmarks/sleep.php",
+		"/Users/Artz/Sites/i-dream-of-nodejs/09 benchmarks/timeout.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/09 benchmarks/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/02 servers/favicon.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/10 debugging/problem.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/08 desktop apps/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/10 debugging/nuke.txt",
+		"/Users/Artz/Sites/i-dream-of-nodejs/03 chat/chat-name.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/10 debugging/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/07 cli/kinda",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 poll/poll.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/foo/index.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/foo/bar.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/baz.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/qux.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/02 servers/http.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/02 servers/net.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 poll/poll-ws.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/05 modules/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/modules.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/04 modules/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/05 poll/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/07 cli/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/08 desktop apps/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 javascript/readme.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 javascript/_notes.md",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 javascript/interval.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 javascript/timeout.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/chat.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/thesaurus.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/poll.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/poll-ws.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-node/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/poll.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 net server/http.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/01 net server/net.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-node/emotions.txt",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-nw/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-nw/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-node/emotions.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda.app/package.json",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda-nw/test.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/kinda.app/index.html",
+		"/Users/Artz/Sites/i-dream-of-nodejs/wspoll/routes/index.js",
+		"/Users/Artz/Sites/i-dream-of-nodejs/wspoll/views/index.ejs",
+		"/Users/Artz/Sites/i-dream-of-nodejs/wspoll/bin/www",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/more.html",
+		"/Users/Artz/Sites/node-brewbrawl/views/competition.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/scss/_variables.scss",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brews.html",
+		"/Users/Artz/Sites/brewbrawl/client/scss/brewbrawl.scss",
+		"/Users/Artz/Sites/brewbrawl/client/bower.json",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brawl.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brawl-form.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brawl-form2.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brawls.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/profile.html",
+		"/Users/Artz/Sites/brewbrawl/client/scripts/services/services.js",
+		"/Users/Artz/Sites/brewbrawl/client/www/lib/ngAutocomplete/src/ngAutocomplete.js",
+		"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/css/ionic.css",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/brewers.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/tabs.html",
+		"/Users/Artz/Sites/brewbrawl/client/config.xml",
+		"/Users/Artz/Sites/brewbrawl/client/plugins/ios.json",
+		"/Users/Artz/Sites/brewbrawl/client/platforms/ios/Brew Brawl/Brew Brawl-Info.plist",
+		"/Users/Artz/Sites/brewbrawl/client/scripts/brewbrawl.js",
+		"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/scss/ionicons/_ionicons-variables.scss",
+		"/Users/Artz/Sites/brewbrawl/client/scripts/controllers/controllers.js",
+		"/Users/Artz/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/Artz/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/Artz/Sites/brewbrawl/server/app.js",
+		"/Users/Artz/Sites/brewbrawl/server/data/model.js",
+		"/Users/Artz/Sites/brewbrawl/server/views/layout.jade",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/login.html",
+		"/Users/Artz/Sites/brewbrawl/README.md",
+		"/Users/Artz/Sites/brewbrawl/client/platforms/ios/Brew Brawl/config.xml",
+		"/Users/Artz/Sites/brewbrawl/server/node_modules/mers/lib/routes.js",
+		"/Users/Artz/Sites/brewbrawl/server/node_modules/restful/examples/standalone-server.js",
+		"/Users/Artz/Sites/node-brewbrawl/models/competition.js",
+		"/Users/Artz/Sites/node-brewbrawl/models/index.js",
+		"/Users/Artz/Sites/node-brewbrawl/models/entry.js",
+		"/Users/Artz/Sites/node-brewbrawl/models/user.js",
+		"/Users/Artz/Sites/brewbrawl/server/node_modules/ng-resource/index.js",
+		"/Users/Artz/Sites/brewbrawl/server/node_modules/mers/lib/rest.js",
+		"/Users/Artz/Sites/node-brewbrawl/models/account.js",
+		"/Users/Artz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Artz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Artz/Sites/brewbrawl/server/bin/www",
+		"/Users/Artz/Sites/brewbrawl/client/www/index.html",
+		"/Users/Artz/Sites/brewbrawl/server/package.json",
+		"/Users/Artz/Sites/brewbrawl/server/example/bin/www",
+		"/Users/Artz/Sites/brewbrawl/.editorconfig",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/tab-account.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/README.md",
+		"/Users/Artz/Sites/brewbrawl/server/package.example.json",
+		"/Users/Artz/Sites/brewbrawl/client/scss/base/_form.scss",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/friend-detail.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/tab-friends.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/templates/tab-dash.html",
+		"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/js/ionic.js",
+		"/Users/Artz/Sites/brewbrawl/client/scss/base/_variables.scss",
+		"/Users/Artz/Sites/brewbrawl/client/package.json",
+		"/Users/Artz/Sites/brewbrawl/client/.gitignore",
+		"/Users/Artz/Sites/brewbrawl/client/ionic.project",
+		"/Users/Artz/Sites/brewbrawl/client/gulpfile.js",
+		"/Users/Artz/Sites/brewbrawl/client/README.md",
+		"/Users/Artz/Sites/brewbrawl/client/www/js/brewbrawl.js",
+		"/Users/Artz/Sites/brewbrawl/client/scripts/controllers.js",
+		"/Users/Artz/Sites/brewbrawl/client/www/js/services.js",
+		"/Users/Artz/Sites/brewbrawl/client/www/js/controllers.js",
+		"/Users/Artz/Sites/node-brewbrawl/routes/entry.js",
+		"/Users/Artz/Sites/node-brewbrawl/routes/competition.js",
+		"/Users/Artz/Sites/node-brewbrawl/styles/base.scss",
+		"/Users/Artz/Sites/node-brewbrawl/views/competitionId.html",
+		"/Users/Artz/Sites/node-brewbrawl/server.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/css",
+			"/Users/Artz/Sites/brewbrawl/client/www/lib/ionic/scss",
+			"/Users/Artz/Sites/brewbrawl",
+			"/Users/Artz/Sites/node-brewbrawl/node_modules/model/lib",
+			"/Users/Artz/Sites/node-brewbrawl/routes",
+			"/Users/Artz/Sites/node-brewbrawl/lib",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fork",
+			"conne",
+			"keep",
+			"keepalive",
+			"worker",
+			"require",
+			"newSocket",
+			"broadcast",
+			"global\n	process\n	console\n	Class: Buffer\n	require()\n	require.resolve()\n	require.cache\n	require.extensions\n	__filename\n	__dirname\n	module\n	exports\n	setTimeout(cb, ms)\n	clearTimeout(t)\n	setInterval(cb, ms)\n	clearInterval(t)\n",
+			"listen",
+			"kinda",
+			"console.log",
+			"total",
+			"modal.",
+			"modal.shown",
+			"self.el.querySelector('input, textarea');",
+			"focusFirstInput",
+			"$button-assertive-",
+			"assertive",
+			"input",
+			"item-input",
+			"8px",
+			"item-padd",
+			"label",
+			"input",
+			"padding",
+			"anim",
+			"height",
+			".item",
+			"ng-hide",
+			"ngshow",
+			"ng-hide",
+			"ngshow",
+			"bar",
+			".item-",
+			".item-select",
+			"fade-in",
+			"f125",
+			"$ionicon-var-chevron-right",
+			"f125",
+			".item",
+			":after",
+			"ionictabs",
+			"tabs",
+			"cordovafacebook",
+			"\"",
+			"ngresrou",
+			".del",
+			"delete",
+			"colon",
+			"semi",
+			"semicol",
+			"lines",
+			"line",
+			"bar",
+			"bars",
+			"menu",
+			"{{ user.srm|is(1, ' selected') }}",
+			"select",
+			"$hasHeader",
+			"ionContent",
+			"content",
+			"ionContent",
+			"button-stable-text",
+			"tabs-stable-text",
+			"tab",
+			"{% if entry.id %}<input type=\"submit\" value=\"Delete Brew\" name=\"delete\" class=\"danger\">{% endif %}</p>",
+			"async",
+			"datatype",
+			"int",
+			"autoIncrementId",
+			"autoin",
+			"auto",
+			"autoin",
+			"eval",
+			"line",
+			"next",
+			"uuid",
+			"utils",
+			"batch",
+			"console",
+			"console.",
+			"auth.l",
+			"auth",
+			"setHeader",
+			"blonde ale",
+			"6C",
+			"altbier",
+			"checkbox",
+			"console",
+			"styles",
+			"startDate",
+			"style",
+			"server.on",
+			"console",
+			"Competition",
+			"_UUID_CHARS",
+			"chars",
+			"util",
+			"uuid",
+			".id",
+			"id",
+			"id ==",
+			"id ===",
+			"id:",
+			"label",
+			"startDate",
+			"beer",
+			"user",
+			"nav-back",
+			"req.locals",
+			"debug",
+			"debugg",
+			"__",
+			"locals",
+			"__",
+			"logout",
+			"user.html",
+			"selected",
+			") ",
+			"selected",
+			"swig",
+			" =",
+			"\">",
+			"\"></",
+			"\">",
+			"li",
+			"session"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"thisSocket",
+			"'",
+			"profile.html",
+			":",
+			"p",
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "idonjs.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

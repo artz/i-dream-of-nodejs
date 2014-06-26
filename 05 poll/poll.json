@@ -1,0 +1,14 @@
+{
+	"question": "So, whatcha wanna know?",
+	"answers": [
+		"node.js design & performance",
+		"building web apps and services",
+		"making command line tools",
+		"testing and debugging node.js",
+		"popular modules in userland",
+		"cross-platform desktop apps",
+		"nodecopters and robots",
+		"learning resources",
+		"apps we built at AOL"
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "dependencies": {
+    "markdown": "^0.5.0"
+  }
+}
